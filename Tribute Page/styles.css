@@ -134,17 +134,20 @@ body {
     overflow: hidden;
     box-sizing: border-box;
     line-height: 1.2;
+    
 }
 
 @media (max-width: 790px) {
 
     .cards {
-        display: flex;
-        flex-direction: column;
-        line-height: 1.2;
+        display: grid;
         gap: 3vh;
+        line-height: 1.2;
+        
+       
     }
     
+   
 }
 
 
@@ -154,6 +157,8 @@ body {
     background-color: #f9926f;
     display: grid;
     border-radius: 0.5em;
+    margin-bottom: 3v;
+    padding-bottom: 3v;
 }
 
 @media (max-width: 990px) {
@@ -214,6 +219,7 @@ body {
 
     text-align: center;
     font-size: 1.3rem;
+    max-width: 100%;
   
 }
 
@@ -227,6 +233,7 @@ body {
     border-radius: 0.5em;
     position: relative;
     display: grid;
+    max-width: 100%;
     
 }
 
@@ -288,6 +295,7 @@ body {
     margin-top: 10%;
     text-align: center;
     font-size: 1.3rem;
+    max-width: 100%;
   
 }
 
@@ -330,6 +338,8 @@ body {
     border-radius: 0.5em;
     position: relative;
     display: grid;
+    max-width: 100%;
+    
 }
 
 @media (max-width: 990px) {
@@ -346,6 +356,7 @@ body {
     .card3 {
         width: 550px;
         height: 300px;
+        margin-bottom: 2vh;
     }
     
 
